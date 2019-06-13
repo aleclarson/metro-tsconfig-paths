@@ -1,13 +1,23 @@
 dependencies:
   get-dev-paths: 0.1.1
   realpath-native: 1.1.0
-  tsconfig-paths: 3.8.0
+  tsconfig-paths: /@alloc/tsconfig-paths/3.8.0
 devDependencies:
   '@types/node': 12.0.8
   prettier: 1.18.2
   typescript: 3.5.2
 lockfileVersion: 5
 packages:
+  /@alloc/tsconfig-paths/3.8.0:
+    dependencies:
+      '@types/json5': 0.0.29
+      deepmerge: 2.2.1
+      json5: 1.0.1
+      minimist: 1.2.0
+      strip-bom: 3.0.0
+    dev: false
+    resolution:
+      integrity: sha512-pL1Ki1Id3EJ1SSaa5ycRMOTvJJkQD3+wFmMmFqAa98hMzQ6NpwS5qUELs9oYSIWnb7v7EHjzyRwqgmrPm/+s1w==
   /@types/json5/0.0.29:
     dev: false
     resolution:
@@ -153,16 +163,6 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha1-IzTBjpx1n3vdVv3vfprj1YjmjtM=
-  /tsconfig-paths/3.8.0:
-    dependencies:
-      '@types/json5': 0.0.29
-      deepmerge: 2.2.1
-      json5: 1.0.1
-      minimist: 1.2.0
-      strip-bom: 3.0.0
-    dev: false
-    resolution:
-      integrity: sha512-zZEYFo4sjORK8W58ENkRn9s+HmQFkkwydDG7My5s/fnfr2YYCaiyXe/HBUcIgU8epEKOXwiahOO+KZYjiXlWyQ==
   /type-error/1.0.3:
     dev: false
     resolution:
@@ -186,5 +186,5 @@ specifiers:
   get-dev-paths: ^0.1.1
   prettier: ^1.18.2
   realpath-native: ^1.1.0
-  tsconfig-paths: ^3.8.0
+  tsconfig-paths: 'npm:@alloc/tsconfig-paths@^3.8.0'
   typescript: ^3.5.2

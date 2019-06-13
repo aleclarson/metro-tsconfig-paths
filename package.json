@@ -21,7 +21,7 @@
   "dependencies": {
     "get-dev-paths": "^0.1.1",
     "realpath-native": "^1.1.0",
-    "tsconfig-paths": "^3.8.0"
+    "tsconfig-paths": "npm:@alloc/tsconfig-paths@^3.8.0"
   },
   "devDependencies": {
     "@types/node": "^12.0.8",
