@@ -1,6 +1,6 @@
 {
   "name": "metro-tsconfig-paths",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use tsconfig 'paths' with Metro",
   "main": "lib/index.js",
   "files": [
