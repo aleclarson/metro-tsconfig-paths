@@ -40,7 +40,6 @@ export = (cfg: MetroConfig) => {
       if (match) {
         try {
           match = realpath.sync(match)
-          console.log({ moduleName, originModulePath, match })
           return {
             type: 'sourceFile',
             filePath: match,
